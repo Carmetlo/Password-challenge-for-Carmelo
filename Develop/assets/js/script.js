@@ -1,5 +1,5 @@
 var characterLength = 8;
-// var choiceArray = [];
+
 var specialCharacterArray = ['!', 'S', '&', '^', '?', '+'];
 var lowerCaseArray = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h',
     'i', 'j', 'k',
@@ -11,10 +11,10 @@ var upperCaseArray = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H',
     'Z',];
 var numberArray = ['0', '1', '2', '3', '4', '5', '6', '7', '8',
     '9',];
-// Get references to the #generate element
+
 var generateBtn = document.querySelector("#generate");
 generateBtn.addEventListener("click", writePassword);
-//Write password to the #password input
+
 function writePassword() {
     var {length,choiceArray,status} = windowPrompts();
 
@@ -66,8 +66,3 @@ function windowPrompts() {
     return {length:characterLength,choiceArray,status:true};
 
 }
-// return "Generate password will go here!";
-// Add event listener to generate button
-// create a window prompt
-// prompt asks for qualities of passwords to include
-// number of characters, capital letters, numbers,
