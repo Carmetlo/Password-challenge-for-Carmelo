@@ -1,1 +1,2 @@
-# Password Generator Starter Code
+# Explanation and details
+
